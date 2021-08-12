@@ -1,0 +1,19 @@
+.row{
+    
+    justify-content: center;
+    text-align: center;
+    
+    }
+  .Pcard{
+    width: '18rem' ; 
+    height: 570px;
+  } 
+  .imgCard{
+    height: 220px;  
+  }
+  .PcardText{
+    height: 65%;  
+  } 
+  
+   
+    

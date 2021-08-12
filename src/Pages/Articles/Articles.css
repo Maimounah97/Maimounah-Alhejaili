@@ -1,0 +1,17 @@
+.row{
+    
+    justify-content: center;
+    text-align: center;
+    
+    }
+  .Acard{
+    width: '18rem' ; 
+    height: 370px;
+  } 
+  .AcardTitle{
+      height:25% ;
+  }
+  .AcardText{
+      height:75% ;
+  }
+

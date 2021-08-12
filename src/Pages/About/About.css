@@ -1,0 +1,25 @@
+
+.headerGif{
+    width: 600px;
+    height: 400px;
+    
+}
+
+.baio{
+    padding-top: 100px;
+    text-align: center;
+}
+
+ @media only screen and (max-width: 600px)  {
+    .headerGif{
+        width: 90vw;
+        height: 56vh;
+        text-align: center;
+        
+    }
+       
+    .baio{
+        padding-top: 10px;
+        
+    }
+} 
