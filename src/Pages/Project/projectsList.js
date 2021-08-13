@@ -38,9 +38,9 @@ const projects = [
 },
 {
     name: 'MY PORTFOLIO',
-    dis: " . Using ReactJs, React-Bootstrap.",
+    dis: " a personal website that shows my information, projects, and articles. Using ReactJs, React-Bootstrap.",
     img: myPortfolioImg,
-    github: 'https://github.com/Maimounah97/myPortfolio.git',
+    github: 'https://github.com/Maimounah97/Maimounah-Alhejaili.git',
 }
 ];
 
