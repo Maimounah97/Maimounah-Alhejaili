@@ -1,6 +1,5 @@
 import React from 'react';
 import projects from './projectsList';
-import Image from 'react-bootstrap/Image';
 import * as ReactBootStrp from "react-bootstrap";
 import './Project.css';
 import 'boxicons';
@@ -15,7 +14,7 @@ function Project() {
                {projects.map(project => (
                   
 
-                   <div className="col-sm-4">
+                   <div className="col-sm-6">
                  <ReactBootStrp.Card className="Pcard shadow-lg p-3 mb-5rounded m-3" bg="dark" variant="dark"style={{   }}>
                  <ReactBootStrp.Card.Img className= "imgCard" variant="top" src={project.img}   />
                  

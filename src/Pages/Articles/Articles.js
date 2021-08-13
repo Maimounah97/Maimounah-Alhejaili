@@ -12,7 +12,7 @@ function Articles() {
                {articles.map(article => (
                   
 
-                   <div className="col-sm-4">
+                   <div className="col-sm-5">
                  <ReactBootStrp.Card className="Acard shadow-lg p-3 mb-5rounded m-3" bg="dark" variant="dark">
                  
                  

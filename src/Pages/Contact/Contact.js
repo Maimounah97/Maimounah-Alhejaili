@@ -36,7 +36,7 @@ function Contact(){
     <ReactBootStrp.Form.Control name="Message" as="textarea" rows={3} />
   </ReactBootStrp.Form.Group>
    
-   <ReactBootStrp.Button style={{background:"rgb(128, 49, 64)"}}  type="sind">
+   <ReactBootStrp.Button style={{background:"rgb(128, 49, 64)"}}  type="submit" value="Send">
     Send Message
   </ReactBootStrp.Button>
 </ReactBootStrp.Form>

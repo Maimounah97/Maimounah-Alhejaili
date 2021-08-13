@@ -1,5 +1,6 @@
 import * as ReactBootStrp from "react-bootstrap";
 import { Route } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 //import './App.css';
 import Navbar from './Navbar/Navbar.js';
 import headerGif from './Pages/About/headerGif2.gif';
@@ -12,17 +13,18 @@ function App() {
   return (
     <div >
       <Navbar />
-      <Route path="/About" >
-         <About />
+      <Route exact path="/" render={About} >
         </Route>
-      <Route path="/Projects" >
-           <Projects /> 
+        <Route exact path="/About" render={About} >
         </Route>
-        <Route path="/Articles" >
-         <Articles />
+      <Route exact path="/Projects" render={Projects}>
+           
         </Route>
-        <Route path="/Contact" >
-         <Contact />
+        <Route exact path="/Articles" render={Articles} >
+         
+        </Route>
+        <Route exact path="/Contact" render={Contact}>
+         
         </Route>
       {/* <ReactBootStrp.Container>
         <ReactBootStrp.Row >
