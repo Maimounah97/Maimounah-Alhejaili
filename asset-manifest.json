@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.bebfeee5.chunk.css",
-    "main.js": "./static/js/main.985158f5.chunk.js",
-    "main.js.map": "./static/js/main.985158f5.chunk.js.map",
+    "main.js": "./static/js/main.9048c4c1.chunk.js",
+    "main.js.map": "./static/js/main.9048c4c1.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.db420a1f.js",
     "runtime-main.js.map": "./static/js/runtime-main.db420a1f.js.map",
     "static/css/2.4c97ca4f.chunk.css": "./static/css/2.4c97ca4f.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.4c97ca4f.chunk.css.map": "./static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.bebfeee5.chunk.css.map": "./static/css/main.bebfeee5.chunk.css.map",
     "static/js/2.bcf54882.chunk.js.LICENSE.txt": "./static/js/2.bcf54882.chunk.js.LICENSE.txt",
+    "static/media/apple-1834328_1920.9bc1fd54.JPG": "./static/media/apple-1834328_1920.9bc1fd54.JPG",
     "static/media/headerGif2.041b3894.gif": "./static/media/headerGif2.041b3894.gif",
     "static/media/logo3.6900827c.png": "./static/media/logo3.6900827c.png",
     "static/media/myPortfolio.5e88c1a5.png": "./static/media/myPortfolio.5e88c1a5.png",
@@ -27,6 +28,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.bcf54882.chunk.js",
     "static/css/main.bebfeee5.chunk.css",
-    "static/js/main.985158f5.chunk.js"
+    "static/js/main.9048c4c1.chunk.js"
   ]
 }
