@@ -1,6 +1,6 @@
 import travelAppImg from './images/travelApp.png';
 import weatherWebsiteImg from './images/weatherWebsite.png';
-import qAderAppImg from './images/qAderApp.png';
+import qAderAppImg from './images/qAderApp.PNG';
 import singlePageWebsiteImg from './images/singlePageWebsite.png';
 import myPortfolioImg from './images/myPortfolio.png'
 
