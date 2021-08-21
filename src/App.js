@@ -1,5 +1,5 @@
 import * as ReactBootStrp from "react-bootstrap";
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { HashRouter as Router } from 'react-router-dom';
 //import './App.css';
 import Navbar from './Navbar/Navbar.js';
@@ -11,8 +11,9 @@ import About from './Pages/About/About.js';
 import Contact from './Pages/Contact/Contact.js';
 function App() {
   return (
-    <div >
+    <Router >
       <Navbar />
+      <Switch>
       <Route exact path="/" render={About} >
         </Route>
         <Route exact path="/About" render={About} >
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/Contact" render={Contact}>
          
         </Route>
+        </Switch>
       {/* <ReactBootStrp.Container>
         <ReactBootStrp.Row >
           <ReactBootStrp.Col ><img className="headerGif" src={headerGif}></img></ReactBootStrp.Col>
@@ -39,7 +41,7 @@ function App() {
         </ReactBootStrp.Row>
       </ReactBootStrp.Container> */}
  
-    </div>
+    </Router>
   );
 }
 

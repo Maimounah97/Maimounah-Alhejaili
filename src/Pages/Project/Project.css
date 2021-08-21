@@ -5,8 +5,8 @@
     
     }
   .Pcard{
-    width: '18rem' ; 
-    height: 570px;
+    width: auto ; 
+    min-height: 570px;
   } 
   .imgCard{
     height: 220px;  

@@ -13,7 +13,9 @@ function sendEmail(e) {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset()
   }
+ 
 
 function Contact(){
     return(
