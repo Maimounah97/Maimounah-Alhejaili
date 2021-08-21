@@ -1,6 +1,7 @@
 {
+  "homepage": "http://Maimounah97.github.io/Maimounah-Alhejaili",
   "name": "myapp",
-  "homepage": ".",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
