@@ -14,8 +14,10 @@ function About(){
           <ReactBootStrp.Col className="baio container">
             <h3 data-aos="fade-up">Hello There !!👋</h3>
             <br></br>
-            <h5 data-aos="fade-up">I am Maimounah Alhejaili</h5>
-            <h6 data-aos="fade-up">(web & Augmented Reality) Developer 👩🏻‍💻😎</h6>
+            <div data-aos="fade-up">
+            <h5 >I am Maimounah Alhejaili</h5>
+            <h6 >(web & Augmented Reality) Developer 👩🏻‍💻😎</h6>
+            </div>
           </ReactBootStrp.Col>
 
         </ReactBootStrp.Row>
