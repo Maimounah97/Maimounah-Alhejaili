@@ -7,7 +7,7 @@ import myPortfolioImg from './images/myPortfolio.png'
 const projects = [
     {
         name: 'TRAVEL APP',
-        dis: "Building a travel website that obtains a desired trip location and dates from the user, and displays trip length,weather and an image of the location using information obtained from external APIs.Using HTML, CSS, JavaScript, NodeJS, and Webpack.",
+        dis: "Building a website that obtains a desired trip location and dates from the user, and displays trip length and weather by using information obtained from external APIs.Using HTML, CSS, JavaScript, NodeJS, and Webpack.",
         img: travelAppImg,
         github: 'https://github.com/Maimounah97/Travel-App-FEND.git',
         youtube: 'https://www.youtube.com/watch?v=HOQejQ1duhk'
@@ -38,7 +38,7 @@ const projects = [
 },
 {
     name: 'MY PORTFOLIO',
-    dis: " a personal website that shows my information, projects, and articles. Using ReactJs, React-Bootstrap.",
+    dis: " A personal website that shows my information, projects, and articles. Using ReactJs, React-Bootstrap.",
     img: myPortfolioImg,
     github: 'https://github.com/Maimounah97/Maimounah-Alhejaili.git',
 }
