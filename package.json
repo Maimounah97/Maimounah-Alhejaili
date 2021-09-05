@@ -1,13 +1,13 @@
 {
   "homepage": "http://Maimounah97.github.io/Maimounah-Alhejaili",
   "name": "myapp",
-  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "aos": "^2.3.4",
     "bootstrap": "^4.6.0",
     "boxicons": "^2.0.9",
     "emailjs-com": "^3.2.0",
@@ -19,7 +19,6 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },
-  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

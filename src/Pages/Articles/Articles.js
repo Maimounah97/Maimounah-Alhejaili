@@ -2,9 +2,11 @@ import React from 'react';
 import './Articles.css';
 import articles from './articlesList';
 import * as ReactBootStrp from "react-bootstrap";
-
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 function Articles() {
+    AOS.init({ duration:2000 });
     return (
         <div className="Articles container">
             <div className="row">
@@ -13,7 +15,7 @@ function Articles() {
                   
 
                    <div className="col-sm-5">
-                 <ReactBootStrp.Card className="Acard shadow-lg p-3 mb-5rounded m-3" bg="dark" variant="dark">
+                 <ReactBootStrp.Card data-aos="fade-up" className="Acard shadow-lg p-3 mb-5rounded m-3" bg="dark" variant="dark">
                  
                  
                  <ReactBootStrp.Card.Body >

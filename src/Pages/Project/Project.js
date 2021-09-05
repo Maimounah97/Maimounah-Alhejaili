@@ -1,12 +1,15 @@
-import React from 'react';
+import React  from 'react';
 import projects from './projectsList';
 import * as ReactBootStrp from "react-bootstrap";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import './Project.css';
 import 'boxicons';
 
 
 
 function Project() {
+    Aos.init({ duration:2000 });
     return (
         <div className="Project container">
             <div className="row">
@@ -14,7 +17,7 @@ function Project() {
                {projects.map(project => (
                   
 
-                   <div className="col-sm-4">
+                   <div data-aos="fade-up" className="col-sm-4">
                  <ReactBootStrp.Card className="Pcard shadow-lg p-3 mb-5rounded m-3" bg="dark" variant="dark"style={{   }}>
                  <ReactBootStrp.Card.Img className= "imgCard" variant="top" src={project.img}   />
                  

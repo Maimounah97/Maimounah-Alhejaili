@@ -2,6 +2,8 @@ import React from 'react';
 import * as ReactBootStrp from "react-bootstrap";
 import './Contact.css';
 import 'boxicons';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 import emailjs from 'emailjs-com';
 
 function sendEmail(e) {
@@ -18,14 +20,15 @@ function sendEmail(e) {
  
 
 function Contact(){
+  AOS.init({ duration:2000 });
     return(
         <div className="container" >
-            <ReactBootStrp.Form onSubmit={sendEmail}>
+            <ReactBootStrp.Form data-aos="fade-up" onSubmit={sendEmail}>
             <ReactBootStrp.Form.Group className="mb-3" controlId="contactForm.ControlInput1">
-    <ReactBootStrp.Form.Label> Name</ReactBootStrp.Form.Label>
-    <ReactBootStrp.Form.Control name="Name" type="Name" placeholder="Enter Your Name" />
+    <ReactBootStrp.Form.Label > Name</ReactBootStrp.Form.Label>
+    <ReactBootStrp.Form.Control  name="Name" type="Name" placeholder="Enter Your Name" />
   </ReactBootStrp.Form.Group>
-  <ReactBootStrp.Form.Group className="mb-3" controlId="contactForm.ControlInput1">
+  <ReactBootStrp.Form.Group  className="mb-3" controlId="contactForm.ControlInput1">
     <ReactBootStrp.Form.Label>Email address</ReactBootStrp.Form.Label>
     <ReactBootStrp.Form.Control name="Email" type="email" placeholder="name@example.com" />
   </ReactBootStrp.Form.Group>
@@ -33,7 +36,7 @@ function Contact(){
     <ReactBootStrp.Form.Label> Subject</ReactBootStrp.Form.Label>
     <ReactBootStrp.Form.Control name="Subject" type="Subject" placeholder="Subject" />
   </ReactBootStrp.Form.Group>
-  <ReactBootStrp.Form.Group className="mb-3" controlId="contactForm.ControlTextarea1">
+  <ReactBootStrp.Form.Group  className="mb-3" controlId="contactForm.ControlTextarea1">
     <ReactBootStrp.Form.Label>Message</ReactBootStrp.Form.Label>
     <ReactBootStrp.Form.Control name="Message" as="textarea" rows={3} />
   </ReactBootStrp.Form.Group>
