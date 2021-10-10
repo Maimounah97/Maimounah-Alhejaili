@@ -13,7 +13,6 @@ function Articles() {
             
                {articles.map(article => (
                   
-
                    <div className="col-sm-5">
                  <ReactBootStrp.Card data-aos="fade-up" className="Acard shadow-lg p-3 mb-5rounded m-3" bg="dark" variant="dark">
                  
@@ -26,9 +25,6 @@ function Articles() {
                          {article.name==="أنواع الواقع المعزز"  ? <a href={article.link}  > اقرأ المزيد</a> : <a href={article.link}> read more</a>  }
                      
                       </ReactBootStrp.Card.Text>
-                      
-                      
-                      
                      
                  </ReactBootStrp.Card.Body>
                  

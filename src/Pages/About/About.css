@@ -9,6 +9,14 @@
     padding-top: 100px;
     text-align: center;
 }
+.skills{
+    padding-top: 100px;
+    
+}
+.personalSkills{
+    padding-top: 30px;
+
+}
 
  @media only screen and (max-width: 600px)  {
     .headerGif{
@@ -20,6 +28,8 @@
        
     .baio{
         padding-top: 10px;
+        padding-bottom: 10px;
         
     }
+
 } 
